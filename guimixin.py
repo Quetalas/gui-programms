@@ -22,6 +22,9 @@ class GuiMixin:
     def question(self, title, text, *args):
         return askyesno(title, text)
 
+    def notdone(self):
+        pass
+
     def help(self):
         self.infobox('RTFM', 'See figure 1...')
 
